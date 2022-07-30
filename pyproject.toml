@@ -3,7 +3,7 @@
 
 [tool.poetry]
 name = "kilroy-face-py-shared"
-version = "0.1.0"
+version = "0.2.0"
 description = "shared code for kilroy face SDKs in Python 🤝"
 readme = "kilroy_face_py_shared/README.md"
 authors = ["kilroy <kilroymail@pm.me>"]
@@ -15,6 +15,9 @@ packages = [{ include = "kilroy-face-py-shared", from = "kilroy_face_py_shared/s
 
 [tool.poetry.dependencies]
 python = "^3.9"
+pydantic = "^1.9"
+pyhumps = "^3.7"
+jsonschema = "^4.7"
 
 # dev
 
