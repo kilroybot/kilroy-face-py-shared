@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "kilroy-face-py-shared"
-version = "0.3.0"
+version = "0.3.1"
 description = "shared code for kilroy face SDKs in Python 🤝"
 readme = "README.md"
 authors = ["kilroy <kilroymail@pm.me>"]
