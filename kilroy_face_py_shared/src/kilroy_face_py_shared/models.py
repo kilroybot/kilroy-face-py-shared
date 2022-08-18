@@ -1,7 +1,7 @@
 from abc import ABC
 
 from humps import camelize
-from pydantic import BaseModel
+from pydantic import BaseModel, Extra
 
 
 class SerializableModel(BaseModel, ABC):
@@ -11,3 +11,4 @@ class SerializableModel(BaseModel, ABC):
     class Config:
         allow_population_by_field_name = True
         alias_generator = camelize
+        extra = Extra.allow
