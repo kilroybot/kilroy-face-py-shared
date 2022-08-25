@@ -136,6 +136,7 @@ class ScrapRequest(betterproto.Message):
 class RealPost(betterproto.Message):
     id: str = betterproto.string_field(1)
     content: str = betterproto.string_field(2)
+    score: float = betterproto.double_field(3)
 
 
 @dataclass(eq=False, repr=False)
