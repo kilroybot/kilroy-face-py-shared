@@ -121,9 +121,7 @@ class ScoreResponse(betterproto.Message):
 @dataclass(eq=False, repr=False)
 class ScrapRequest(betterproto.Message):
     limit: Optional[int] = betterproto.uint64_field(
-        1,
-        optional=True,
-        group="_limit"
+        1, optional=True, group="_limit"
     )
     before: Optional[datetime] = betterproto.message_field(
         2, optional=True, group="_before"
