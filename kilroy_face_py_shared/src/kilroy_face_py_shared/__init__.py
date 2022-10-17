@@ -32,6 +32,8 @@ from kilroy_face_py_shared.messages import (
     WatchConfigResponse,
     WatchStatusRequest,
     WatchStatusResponse,
+    ResetRequest,
+    ResetResponse,
 )
 from kilroy_face_py_shared.metadata import Metadata
 from kilroy_face_py_shared.models import SerializableModel

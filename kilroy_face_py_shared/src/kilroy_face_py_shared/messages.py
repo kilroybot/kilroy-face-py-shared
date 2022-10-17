@@ -142,3 +142,13 @@ class RealPost(betterproto.Message):
 @dataclass(eq=False, repr=False)
 class ScrapResponse(betterproto.Message):
     post: "RealPost" = betterproto.message_field(1)
+
+
+@dataclass(eq=False, repr=False)
+class ResetRequest(betterproto.Message):
+    pass
+
+
+@dataclass(eq=False, repr=False)
+class ResetResponse(betterproto.Message):
+    pass
