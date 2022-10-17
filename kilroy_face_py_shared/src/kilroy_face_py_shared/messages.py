@@ -105,6 +105,7 @@ class PostRequest(betterproto.Message):
 @dataclass(eq=False, repr=False)
 class PostResponse(betterproto.Message):
     post_id: str = betterproto.string_field(1)
+    post_url: str = betterproto.string_field(2)
 
 
 @dataclass(eq=False, repr=False)
