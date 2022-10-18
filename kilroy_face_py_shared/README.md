@@ -4,8 +4,9 @@
 
 shared code for kilroy face SDKs in Python 🤝
 
-[![Tests](https://github.com/kilroybot/kilroy-face-py-shared/actions/workflows/test-multiplatform.yml/badge.svg)](https://github.com/kilroybot/kilroy-face-py-shared/actions/workflows/test-multiplatform.yml)
-[![Docs](https://github.com/kilroybot/kilroy-face-py-shared/actions/workflows/docs.yml/badge.svg)](https://github.com/kilroybot/kilroy-face-py-shared/actions/workflows/docs.yml)
+[![Lint](https://github.com/kilroybot/kilroy-face-py-shared/actions/workflows/lint.yaml/badge.svg)](https://github.com/kilroybot/kilroy-face-py-shared/actions/workflows/lint.yaml)
+[![Tests](https://github.com/kilroybot/kilroy-face-py-shared/actions/workflows/test-multiplatform.yaml/badge.svg)](https://github.com/kilroybot/kilroy-face-py-shared/actions/workflows/test-multiplatform.yaml)
+[![Docs](https://github.com/kilroybot/kilroy-face-py-shared/actions/workflows/docs.yaml/badge.svg)](https://github.com/kilroybot/kilroy-face-py-shared/actions/workflows/docs.yaml)
 
 </div>
 
