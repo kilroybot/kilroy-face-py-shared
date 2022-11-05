@@ -14,9 +14,9 @@ shared code for kilroy face SDKs in Python 🤝
 
 This `README` provides info about the development process.
 
-For more info about the package itself
-see `kilroy_face_py_shared/README.md`
-or [docs](https://kilroybot.github.io/kilroy-face-py-shared).
+For more info about the package itself see
+[package `README`](kilroy_face_py_shared/README.md) or
+[docs](https://kilroybot.github.io/kilroy-face-py-shared).
 
 ## Quickstart (on Ubuntu)
 
