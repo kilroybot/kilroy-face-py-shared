@@ -7,7 +7,6 @@ from kilroy_face_py_shared.errors import (
     STATE_NOT_READY_ERROR,
 )
 from kilroy_face_py_shared.messages import (
-    GeneratedPost,
     GetConfigRequest,
     GetConfigResponse,
     GetConfigSchemaRequest,
@@ -20,7 +19,6 @@ from kilroy_face_py_shared.messages import (
     GetStatusResponse,
     PostRequest,
     PostResponse,
-    RealPost,
     ScoreRequest,
     ScoreResponse,
     ScrapRequest,
@@ -34,6 +32,8 @@ from kilroy_face_py_shared.messages import (
     WatchStatusResponse,
     ResetRequest,
     ResetResponse,
+    SaveRequest,
+    SaveResponse,
 )
 from kilroy_face_py_shared.metadata import Metadata
 from kilroy_face_py_shared.models import SerializableModel
